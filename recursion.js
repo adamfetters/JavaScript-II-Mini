@@ -14,6 +14,10 @@ while (n <= 10) {
 // when you code is ready, un-comment the next line and run the file
 // console.log(countToTen());
 /* ================ Next Problem ================= */
+const countToTen = (num = 1) => {
+    if (num === 11) return;
+    return ('While Loop ' + num + '\n' + countToTen(num + 1)) ;
+}
 
 // Problem 2:
 
