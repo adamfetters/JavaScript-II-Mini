@@ -12,7 +12,7 @@ function Animal(options) {
 
 // add 'grow' to Animal's prototype here
 
-Animal.prototype.grow = function(name) {
+Animal.prototype.grow = function() {
 	console.log(`${this.name} grew larger!`);
 }
 

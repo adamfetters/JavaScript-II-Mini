@@ -30,6 +30,7 @@ const factorial = n => {
 };
 
 console.log(factorial(5));
+console.log(countToTen())
 
 // write the above functionin a recursive way.
 
